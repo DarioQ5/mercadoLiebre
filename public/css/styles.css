@@ -52,7 +52,7 @@ main {
 
 }
 
-/* Estilos para el menú hamburguesa */
+
 .hamburger-menu {
     margin-left: auto;
     margin-right: auto;
@@ -80,7 +80,7 @@ main {
     display: block; 
 }
 
-/* Estilos Tipograficos -------------------------------------------------------------*/
+
 .titulares {
     font-size: 24px;
     padding: 1rem;
@@ -99,31 +99,30 @@ main {
     margin: 0;
 }
 
-/* Estilos para el Main -------------------------------------------------------------*/
+
 .product-container {
-    display: flex; /* Organizar los productos en una fila usando Flexbox */
-    flex-wrap: wrap; /* Permitir que los productos se envuelvan a la siguiente fila */
-    justify-content: center; /* Centrar los productos horizontalmente */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
 
 }
 
-/* Estilos para cada producto */
 .producto {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 15px;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 200px; /* Ancho fijo para cada producto */
-    margin: 10px; /* Espacio entre los productos */
-    display: flex; /* Usar Flexbox para el contenido interno */
-    flex-direction: column; /* Apilar el contenido verticalmente */
-    justify-content: flex-end; /* Alinear el contenido en la parte superior */
+    width: 200px; 
+    margin: 10px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-end; 
 }
   
 .producto img {
     height: auto;
-    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 10px;
 }
 
 .fa-solid.fa-truck {
@@ -132,7 +131,7 @@ main {
     margin-bottom: 1rem;
   }
 
-/* Estilos para el Footer -------------------------------------------------------------*/
+
 footer {
     background-color: #fff;
     text-align: center;
@@ -149,10 +148,10 @@ footer i {
     margin-bottom: 10px;
 }
 
-/* Pantalla -------------------------------------------------------------*/
 
 
-/* Computadora */
+
+/*Compu*/
 @media screen and (min-width: 769px) {
 
     .hamburger-menu {
@@ -184,7 +183,7 @@ footer i {
     }
 }
 
-/* Tablets  */
+/*Tablet*/
 @media screen and (min-width: 361px) and (max-width: 768px){
     .barra-navegacion {
         display: flex;
@@ -210,7 +209,7 @@ footer i {
     }
 }
 
-/* Celular */
+/*Celular*/
 @media screen and (max-width: 360px) {
     .barra-navegacion {
         display: flex;
